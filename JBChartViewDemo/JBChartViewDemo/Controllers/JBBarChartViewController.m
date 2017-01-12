@@ -9,7 +9,8 @@
 #import "JBBarChartViewController.h"
 
 // Views
-#import "JBBarChartView.h"
+#import <JBChartView/JBBarChartView.h>
+
 #import "JBChartHeaderView.h"
 #import "JBBarChartFooterView.h"
 #import "JBChartInformationView.h"

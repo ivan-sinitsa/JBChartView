@@ -10,7 +10,7 @@
 
 // Views
 #import "JBChartTooltipView.h"
-#import "JBChartView.h"
+#import <JBChartView/JBChartView.h>
 
 @interface JBBaseChartViewController : JBBaseViewController
 

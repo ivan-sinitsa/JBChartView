@@ -9,7 +9,8 @@
 #import "JBLineChartMissingPointsViewController.h"
 
 // Views
-#import "JBLineChartView.h"
+#import <JBChartView/JBLineChartView.h>
+
 #import "JBChartHeaderView.h"
 #import "JBLineChartFooterView.h"
 #import "JBChartInformationView.h"

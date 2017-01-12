@@ -1,0 +1,6 @@
+framework module JBChartView {
+    umbrella header "JBChartViewImports.h"
+    
+    export *
+    module * { export * }
+}
