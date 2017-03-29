@@ -64,7 +64,7 @@
 		4CE992C71E27BAD700B23F31 /* JBLineChartLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartLinesView.h; sourceTree = "<group>"; };
 		4CE992C81E27BAD700B23F31 /* JBLineChartLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartLinesView.m; sourceTree = "<group>"; };
 		4CE992E11E27BBBB00B23F31 /* JBChartViewHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBChartViewHeaders.h; sourceTree = "<group>"; };
-		4CE992E61E27BF7000B23F31 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CF5410281E8BCDFF00BF4B6C /* JBChartView.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = JBChartView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		4CE9929F1E27BAB800B23F31 /* JBChartView */ = {
 			isa = PBXGroup;
 			children = (
-				4CE992E61E27BF7000B23F31 /* module.modulemap */,
+				CF5410281E8BCDFF00BF4B6C /* JBChartView.modulemap */,
 				4CE992E11E27BBBB00B23F31 /* JBChartViewHeaders.h */,
 				4CE992A01E27BAB800B23F31 /* JBChartViewImports.h */,
 				4CE992A81E27BAD700B23F31 /* Classes */,
@@ -418,7 +418,7 @@
 				INFOPLIST_FILE = JBChartView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "";
+				MODULEMAP_FILE = JBChartView/JBChartView.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lohika.JBChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -436,7 +436,7 @@
 				INFOPLIST_FILE = JBChartView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "";
+				MODULEMAP_FILE = JBChartView/JBChartView.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lohika.JBChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
